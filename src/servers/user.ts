@@ -1,8 +1,10 @@
-import {sql} from "@vercel/postgres";
 import { v4 as uuidv4 } from 'uuid';
+import {getDb} from "~/utils/db";
 
-export const checkAndSaveUser = async (name:string, email:string, image:string) => {
-  const results = await sql`select * from user_info where email=${email};`;
+const db = getDb();
+
+export const checkAndSaveUser = async (name:string, email:string, image:string, last_login_ip:string) => {
+  const results = await db.query(`select * from user_info where email=$1;`, [email]);
   const users = results.rows;
   if (users.length <= 0) {
     const result = {
@@ -14,7 +16,9 @@ export const checkAndSaveUser = async (name:string, email:string, image:string) 
     // 新增
     try {
       const strUUID = uuidv4();
-      await sql`insert into user_info(user_id,name,email,image) values(${strUUID},${name},${email},${image});`;
+      const text = 'insert into user_info(user_id,name,email,image,last_login_ip) values($1,$2,$3,$4,$5) RETURNING *';
+      const values = [strUUID,name,email,image,last_login_ip]
+      await db.query(text, values);
       result.user_id = strUUID;
       result.name = name;
       result.email = email;
@@ -27,14 +31,17 @@ export const checkAndSaveUser = async (name:string, email:string, image:string) 
   } else {
     // 更新
     const user = users[0];
-    await sql`update user_info set name=${name},image=${image} where id=${user.id};`;
+    const text = 'update user_info set name=$1,image=$2,last_login_ip=$3,updated_at=now() where id=$4';
+    const values = [name, image, last_login_ip, user.id];
+    await db.query(text, values);
     return user;
   }
 }
 
-
 export const getUserById = async (user_id) => {
-  const results = await sql`select * from user_info where user_id=${user_id};`;
+  const text = 'select * from user_info where user_id=$1';
+  const values = [user_id];
+  const results = await db.query(text, values);
   const users = results.rows;
   if (users.length > 0) {
     const user = users[0];
@@ -56,7 +63,10 @@ export const getUserById = async (user_id) => {
 }
 
 export const getUserByEmail = async (email) => {
-  const results = await sql`select * from user_info where email=${email};`;
+
+  const text = 'select * from user_info where email=$1';
+  const values = [email];
+  const results = await db.query(text, values);
   const users = results.rows;
   if (users.length > 0) {
     const user = users[0];

@@ -9,3 +9,6 @@
 
 ### 4. Copy paste this config to .env.local and .env.production
 ![database config](https://sorawebui.com/vercel/3.jpg)
+
+### 5. You can also use your own postgres, config like this
+POSTGRES_URL="postgres://postgres:pass1234@localhost:5432/sorawebui"
