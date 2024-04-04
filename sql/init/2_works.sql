@@ -27,6 +27,4 @@ comment on column works.revised_prompt is 'video prompt';
 
 comment on column works.url is 'video url';
 
-alter table works
-    owner to "default";
 

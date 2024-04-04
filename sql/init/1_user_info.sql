@@ -27,6 +27,4 @@ comment on column user_info.email is 'user email';
 
 comment on column user_info.image is 'user avatar path';
 
-alter table user_info
-    owner to "default";
 
