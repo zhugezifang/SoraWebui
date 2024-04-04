@@ -19,7 +19,7 @@
     "fakeSoraTip": "FakeSora は、まだリリースされていない OpenAI Sora API をシミュレートするように設計されています。",
     "soraTip": "OpenAIはSoraのAPIをまだリリースしていません。"
   },
-  "autoh": {
+  "auth": {
     "loginText": "ログイン",
     "loginModalDesc": "ログインして続行してください",
     "loginModalButtonText": "Googleでログイン",
