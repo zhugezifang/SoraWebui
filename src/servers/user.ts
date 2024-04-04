@@ -3,7 +3,7 @@ import {getDb} from "~/utils/db";
 
 const db = getDb();
 
-export const checkAndSaveUser = async (name:string, email:string, image:string, last_login_ip:string) => {
+export const checkAndSaveUser = async (name:string, email:string, image:string) => {
   const results = await db.query(`select * from user_info where email=$1;`, [email]);
   const users = results.rows;
   if (users.length <= 0) {
@@ -16,8 +16,8 @@ export const checkAndSaveUser = async (name:string, email:string, image:string, 
     // 新增
     try {
       const strUUID = uuidv4();
-      const text = 'insert into user_info(user_id,name,email,image,last_login_ip) values($1,$2,$3,$4,$5) RETURNING *';
-      const values = [strUUID,name,email,image,last_login_ip]
+      const text = 'insert into user_info(user_id,name,email,image) values($1,$2,$3,$4) RETURNING *';
+      const values = [strUUID,name,email,image]
       await db.query(text, values);
       result.user_id = strUUID;
       result.name = name;
@@ -31,8 +31,8 @@ export const checkAndSaveUser = async (name:string, email:string, image:string, 
   } else {
     // 更新
     const user = users[0];
-    const text = 'update user_info set name=$1,image=$2,last_login_ip=$3,updated_at=now() where id=$4';
-    const values = [name, image, last_login_ip, user.id];
+    const text = 'update user_info set name=$1,image=$2,updated_at=now() where id=$3';
+    const values = [name, image, user.id];
     await db.query(text, values);
     return user;
   }
