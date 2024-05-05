@@ -6,7 +6,7 @@ export default async function Videos({params: {locale = ''}}) {
   // Enable static rendering
   unstable_setRequestLocale(locale);
   const indexLanguageText = await getIndexLanguageText();
-  const videosLanguageText = getVideosPageLanguageText();
+  const videosLanguageText = await getVideosPageLanguageText();
   const authLanguageText = await getAuthLanguageText();
 
   return (
