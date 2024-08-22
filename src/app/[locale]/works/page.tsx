@@ -1,9 +1,7 @@
-'use client'
-
 import PageComponent from "./PageComponent";
 import {unstable_setRequestLocale} from 'next-intl/server';
 import {getIndexLanguageText, getWorksPageLanguageText} from "~/configs/languageText";
-
+export const runtime = 'edge';
 export default async function IndexPage({params: {locale = ''}}) {
   // Enable static rendering
   unstable_setRequestLocale(locale);
