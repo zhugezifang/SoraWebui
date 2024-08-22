@@ -1,5 +1,3 @@
-'use client';
-
 import {unstable_setRequestLocale} from 'next-intl/server';
 
 import PageComponent from './PageComponent';
