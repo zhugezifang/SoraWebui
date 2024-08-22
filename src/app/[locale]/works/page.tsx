@@ -1,3 +1,5 @@
+'use client'
+
 import PageComponent from "./PageComponent";
 import {unstable_setRequestLocale} from 'next-intl/server';
 import {getIndexLanguageText, getWorksPageLanguageText} from "~/configs/languageText";

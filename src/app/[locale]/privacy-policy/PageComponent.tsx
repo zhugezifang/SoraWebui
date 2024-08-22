@@ -1,7 +1,8 @@
+'use client';
+
 import Header from '~/components/Header';
 import Footer from '~/components/Footer';
 import HeadInfo from "~/components/HeadInfo";
-
 const PageComponent = ({
                          locale = '',
                          privacyPolicyLanguageText,
