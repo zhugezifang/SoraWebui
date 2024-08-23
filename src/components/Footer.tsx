@@ -93,6 +93,21 @@ export default function Footer({
           </div>
         </div>
       </div>
+
+      <div className="mx-auto my-6 w-full border border-gray-800 lg:my-6"></div>
+      <div>
+          <p className="font-inter lg: text-center text-sm text-gray-500 py-8">
+            © Copyright 2024.{" "}
+            <a
+              href="/"
+              target="_blank"
+              className="text-white"
+            >
+              Corporate Codes
+            </a>{" "}
+            All rights reserved.
+          </p>
+        </div>
     </footer>
   )
 }
