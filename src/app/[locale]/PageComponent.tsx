@@ -98,7 +98,7 @@ const PageComponent = ({
       />
       <Header locale={locale} indexLanguageText={indexLanguageText}/>
       <div>
-        <div className="block overflow-hidden bg-[#020d24] bg-cover bg-center text-white"
+        <div className="block overflow-hidden bg-cover bg-center text-black"
              style={{backgroundImage: 'https://assets.website-files.com/6502af467b2a8c4ee8159a5b/6502af467b2a8c4ee8159a77_Group%2047929.svg'}}>
           <div className="mx-auto w-full max-w-7xl px-5 mb-5">
             <div
@@ -107,16 +107,10 @@ const PageComponent = ({
               <div className="mb-5 max-w-[528px] lg:mb-8">
                 <p className="text-[#7c8aaa] text-xl">{indexLanguageText.pDescription}</p>
               </div>
-              <a
-                href="https://www.producthunt.com/posts/sorawebui?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-sorawebui"
-                target="_blank"><img
-                src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=440945&theme=light"
-                alt="SoraWebui - Open&#0045;source&#0032;Sora&#0032;Web&#0032;Client | Product Hunt"
-              /></a>
             </div>
             <div>
               <div
-                className={"w-[90%] mx-auto rounded-tl-[30px] rounded-tr-[30px] border-[12px] border-[#ffffff1f] object-fill"}>
+                className={"w-[90%] mx-auto rounded-tl-[30px] rounded-tr-[30px] border-[12px] border-gray-200 object-fill"}>
                 <form onSubmit={handleSubmit} className="relative shadow-lg">
                   <div
                     className="overflow-hidden focus-within:ring-1 focus-within:ring-indigo-500 rounded-tl-[20px] rounded-tr-[20px]">
@@ -177,7 +171,7 @@ const PageComponent = ({
               </div>
             </div>
 
-            <div className={"border-[14px] border-[#ffffff1f] object-fill w-[90%] mx-auto mt-8"}>
+            <div className={"object-fill w-[90%] mx-auto mt-8"}>
               <div className={"mx-auto bg-white"}>
                 <div className={"pb-2 border-b-2"}>
                   <h2
@@ -216,7 +210,7 @@ const PageComponent = ({
               </div>
             </div>
 
-            <div className={"border-[14px] border-[#ffffff1f] object-fill w-[90%] mx-auto mt-8"}>
+            <div className={"object-fill w-[90%] mx-auto mt-8"}>
               <div className={"mx-auto bg-white py-8"}>
                 <div className={"pb-2 border-b-2"}>
                   <h2
@@ -238,7 +232,7 @@ const PageComponent = ({
               </div>
             </div>
 
-            <div className={"border-[14px] border-[#ffffff1f] object-fill w-[90%] mx-auto mt-8"}>
+            <div className={"object-fill w-[90%] mx-auto mt-8"}>
               <div className={"mx-auto bg-white py-8"}>
                 <div className={"pb-2 border-b-2"}>
                   <h2

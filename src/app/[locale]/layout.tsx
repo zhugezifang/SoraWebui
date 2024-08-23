@@ -47,7 +47,7 @@ export default async function LocaleLayout({
           }}
      />
     </head>
-    <body suppressHydrationWarning={true} className={clsx(inter.className, 'flex h-full flex-col bg-[#020d24]')}>
+    <body suppressHydrationWarning={true} className={clsx(inter.className, 'flex h-full flex-col')}>
     <CommonProvider>
       {children}
     </CommonProvider>

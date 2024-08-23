@@ -1,7 +1,7 @@
 import {apiKey, baseUrl, model} from "~/configs/openai";
 export const runtime = 'edge';
 export async function POST(req: Request, res: Response) {
-
+  console.log('POST request', req.url);
   const json = await req.json();
 
   const prompt = json.prompt;
