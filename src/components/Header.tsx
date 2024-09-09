@@ -56,10 +56,10 @@ export default function Header({
       <nav className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8" aria-label="Global">
         <div className="flex lg:flex-1">
           <a href={`/${locale}`} className="-m-1.5 p-1.5" onClick={() => setShowLoadingModal(true)}>
-            <Image className="h-8 w-auto" src="/appicon.svg" alt="sorawebui.com" width={32} height={32}/>
+            <Image className="h-8 w-auto" src="/appicon.svg" alt="Virtual Try On" width={32} height={32}/>
           </a>
           <a href={`/${locale}`} className="-m-1.5 ml-0.5 p-1.5" onClick={() => setShowLoadingModal(true)}>
-            <span className="font-bold text-white text-2xl">Corporate Codes</span>
+            <span className="font-bold text-white text-2xl">Virtual Try On</span>
           </a>
         </div>
         <div className="flex lg:hidden">
@@ -82,17 +82,10 @@ export default function Header({
             </a>
             <a
               key={navMenuText.name2}
-              href={`/${locale}${navMenuText.href2}`}
+              href="/"
               onClick={() => setShowLoadingModal(true)}
               className="text-sm font-semibold leading-6 text-white hover:text-blue-500">
               {navMenuText.name2}
-            </a>
-            <a
-              key={navMenuText.name3}
-              href={`/${locale}${navMenuText.href3}`}
-              onClick={() => setShowLoadingModal(true)}
-              className="text-sm font-semibold leading-6 text-white hover:text-blue-500">
-              {navMenuText.name3}
             </a>
         </div>
         <div className="flex flex-1 justify-end mr-2">

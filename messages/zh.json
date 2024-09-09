@@ -1,12 +1,8 @@
 {
-  "NavMenu":{
-    "name1":"Playground",
-    "href1":"/playground",
-    "name2":"Works",
-    "href2":"/works",
-    "name3":"视频",
-    "href3":"/videos"
-  },
+  "NavMenu":[
+    {"name":"Playground","href":"/playground"},
+    {"name":"博客","href":"/"}
+  ],
   "IndexPage": {
     "lang": "en",
     "language": "简体中文",

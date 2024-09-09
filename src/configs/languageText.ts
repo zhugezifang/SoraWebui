@@ -7,8 +7,6 @@ export const getNavMenu = async () => {
     href1: menuIndex('href1'),
     name2: menuIndex('name2'),
     href2: menuIndex('href2'),
-    name3: menuIndex('name3'),
-    href3: menuIndex('href3'),
   };
 }
 

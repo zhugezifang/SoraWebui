@@ -1,12 +1,8 @@
 {
-  "NavMenu":{
-    "name1":"Playground",
-    "href1":"/playground",
-    "name2":"Works",
-    "href2":"/works",
-    "name3":"Videos",
-    "href3":"/videos"
-  },
+  "NavMenu":[
+    {"name":"Playground","href":"/playground"},
+    {"name":"Blog","href":"/"}
+  ],
   "IndexPage": {
     "lang": "en",
     "language": "English",
