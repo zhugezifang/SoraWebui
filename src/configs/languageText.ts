@@ -1,12 +1,12 @@
 import {getTranslations} from "next-intl/server";
 
 export const getNavMenu = async () => {
-  const menuIndex = await getTranslations('NavMenu');
+  const navMenuIndex = await getTranslations('NavMenu');
   return {
-    name1: menuIndex('name1'),
-    href1: menuIndex('href1'),
-    name2: menuIndex('name2'),
-    href2: menuIndex('href2'),
+    name1: navMenuIndex('name1'),
+    href1: navMenuIndex('href1'),
+    name2: navMenuIndex('name2'),
+    href2: navMenuIndex('href2'),
   };
 }
 
@@ -15,18 +15,9 @@ export const getIndexLanguageText = async () => {
   return {
     title: tIndex('title'),
     description: tIndex('description'),
-    loadingText: tIndex('loadingText'),
-    generateText: tIndex('generateText'),
-    buttonText: tIndex('buttonText'),
-    placeholderText: tIndex('placeholderText'),
     h1Text: tIndex('h1Text'),
     pDescription: tIndex('pDescription'),
     soraVideoExample: tIndex('soraVideoExample'),
-    prompt: tIndex('prompt'),
-    moreExample: tIndex('moreExample'),
-    soraResultTitle: tIndex('soraResultTitle'),
-    fakeSoraTip: tIndex('fakeSoraTip'),
-    soraTip: tIndex('soraTip'),
   };
 }
 
@@ -37,14 +28,17 @@ export const getQuestionLanguageText = async () => {
     h2_1: tIndexQuestion('h2_1'),
     h2_1_p1: tIndexQuestion('h2_1_p1'),
     h2_1_p2: tIndexQuestion('h2_1_p2'),
-    h2_1_p3: tIndexQuestion('h2_1_p3'),
-    h2_1_p4: tIndexQuestion('h2_1_p4'),
     h2_2: tIndexQuestion('h2_2'),
     h2_2_p1: tIndexQuestion('h2_2_p1'),
     h2_2_p2: tIndexQuestion('h2_2_p2'),
     h2_2_p3: tIndexQuestion('h2_2_p3'),
-    h2_2_p4a: tIndexQuestion('h2_2_p4a'),
-    h2_2_p4b: tIndexQuestion('h2_2_p4b'),
+    h2_2_p4a: tIndexQuestion('h2_2_p4'),
+    h2_3: tIndexQuestion('h2_3'),
+    h2_3_p1: tIndexQuestion('h2_3_p1'),
+    h2_3_p2: tIndexQuestion('h2_3_p2'),
+    h2_4: tIndexQuestion('h2_4'),
+    h2_4_p1: tIndexQuestion('h2_4_p1'),
+    h2_4_p2: tIndexQuestion('h2_4_p2'),
   }
 }
 
@@ -56,7 +50,6 @@ export const getWorksPageLanguageText = async () => {
     description: tWorks('description'),
     h1Text: tWorks('h1Text'),
     pDescription: tWorks('pDescription'),
-    generateNew: tWorks('generateNew'),
   }
 }
 
@@ -126,6 +119,5 @@ export const getPlaygroundPageLanguageText = async () => {
     description: tPlaygroundPage('description'),
     h1Text: tPlaygroundPage('h1Text'),
     pDescription: tPlaygroundPage('pDescription'),
-    moreWorks: tPlaygroundPage('moreWorks'),
   }
 }
