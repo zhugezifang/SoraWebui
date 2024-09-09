@@ -10,6 +10,7 @@ import Link from "next/link";
 
 const PageComponent = ({
                          locale = '',
+                         navMenuText,
                          indexLanguageText,
                          playgroundText
                        }) => {
@@ -94,9 +95,9 @@ const PageComponent = ({
         locale={locale}
         page={"/playground"}
       />
-      <Header locale={locale} page={"playground"} indexLanguageText={indexLanguageText}/>
+      <Header locale={locale} navMenuText={navMenuText} page={"playground"} indexLanguageText={indexLanguageText}/>
       <div className={"my-auto"}>
-        <div className="block overflow-hidden bg-[#020d24] bg-cover bg-center text-white"
+        <div className="block overflow-hidden bg-cover bg-center"
              style={{backgroundImage: 'https://assets.website-files.com/6502af467b2a8c4ee8159a5b/6502af467b2a8c4ee8159a77_Group%2047929.svg'}}>
           <div className="mx-auto w-full max-w-7xl px-5 mb-5">
             <div
@@ -108,7 +109,7 @@ const PageComponent = ({
             </div>
             <div>
               <div
-                className={"w-[90%] mx-auto rounded-tl-[30px] rounded-tr-[30px] border-[12px] border-[#ffffff1f] object-fill"}>
+                className={"w-[90%] mx-auto rounded-tl-[30px] rounded-tr-[30px] border-[12px] border-gray-200 object-fill"}>
                 <form onSubmit={handleSubmit} className="relative shadow-lg">
                   <div
                     className="overflow-hidden focus-within:ring-1 focus-within:ring-indigo-500 rounded-tl-[20px] rounded-tr-[20px]">

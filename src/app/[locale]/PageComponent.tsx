@@ -10,6 +10,7 @@ import Link from "next/link";
 
 const PageComponent = ({
                          locale = '',
+                         navMenuText,
                          indexLanguageText,
                          initVideoList = [],
                          questionText
@@ -96,7 +97,7 @@ const PageComponent = ({
         locale={locale}
         page={""}
       />
-      <Header locale={locale} indexLanguageText={indexLanguageText}/>
+      <Header locale={locale} navMenuText={navMenuText} indexLanguageText={indexLanguageText}/>
       <div>
         <div className="block overflow-hidden bg-cover bg-center text-black"
              style={{backgroundImage: 'https://assets.website-files.com/6502af467b2a8c4ee8159a5b/6502af467b2a8c4ee8159a77_Group%2047929.svg'}}>

@@ -1,5 +1,17 @@
 import {getTranslations} from "next-intl/server";
 
+export const getNavMenu = async () => {
+  const menuIndex = await getTranslations('NavMenu');
+  return {
+    name1: menuIndex('name1'),
+    href1: menuIndex('href1'),
+    name2: menuIndex('name2'),
+    href2: menuIndex('href2'),
+    name3: menuIndex('name3'),
+    href3: menuIndex('href3'),
+  };
+}
+
 export const getIndexLanguageText = async () => {
   const tIndex = await getTranslations('IndexPage');
   return {

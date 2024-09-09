@@ -35,6 +35,7 @@ const navigation = {
 
 export default function Header({
                                  locale = '',
+                                 navMenuText,
                                  page = '',
                                  indexLanguageText
                                }) {
@@ -72,15 +73,27 @@ export default function Header({
           </button>
         </div>
         <div className="hidden lg:flex lg:gap-x-12">
-          {navigation.topMenu.map((item) => (
             <a
-              key={item.name}
-              href={`/${locale}${item.href}`}
+              key={navMenuText.name1}
+              href={`/${locale}${navMenuText.href1}`}
               onClick={() => setShowLoadingModal(true)}
               className="text-sm font-semibold leading-6 text-white hover:text-blue-500">
-              {item.name}
+              {navMenuText.name1}
             </a>
-          ))}
+            <a
+              key={navMenuText.name2}
+              href={`/${locale}${navMenuText.href2}`}
+              onClick={() => setShowLoadingModal(true)}
+              className="text-sm font-semibold leading-6 text-white hover:text-blue-500">
+              {navMenuText.name2}
+            </a>
+            <a
+              key={navMenuText.name3}
+              href={`/${locale}${navMenuText.href3}`}
+              onClick={() => setShowLoadingModal(true)}
+              className="text-sm font-semibold leading-6 text-white hover:text-blue-500">
+              {navMenuText.name3}
+            </a>
         </div>
         <div className="flex flex-1 justify-end mr-2">
           {navigation.social.map((item) => (

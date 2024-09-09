@@ -9,6 +9,7 @@ import Link from "next/link";
 
 const PageComponent = ({
                          locale = '',
+                         navMenuText,
                          indexLanguageText,
                          worksText
                        }) => {
@@ -35,9 +36,9 @@ const PageComponent = ({
         locale={locale}
         page={"/works"}
       />
-      <Header locale={locale} page={"works"} indexLanguageText={indexLanguageText}/>
+      <Header locale={locale} navMenuText={navMenuText} page={"works"} indexLanguageText={indexLanguageText}/>
       <div className={"my-auto"}>
-        <div className="block overflow-hidden bg-[#020d24] bg-cover bg-center text-white"
+        <div className="block overflow-hidden bg-cover bg-center"
              style={{backgroundImage: 'https://assets.website-files.com/6502af467b2a8c4ee8159a5b/6502af467b2a8c4ee8159a77_Group%2047929.svg'}}>
           <div className="mx-auto w-full max-w-7xl px-5 mb-5">
             <div

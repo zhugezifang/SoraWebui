@@ -6,6 +6,7 @@ import {allVideoList} from "~/data/openaiVideo";
 
 const PageComponent = ({
                          locale = '',
+                         navMenuText,
                          videosLanguageText,
                          indexLanguageText,
                        }) => {
@@ -26,7 +27,7 @@ const PageComponent = ({
         locale={locale}
         page={"/videos"}
       />
-      <Header locale={locale} page={"videos"} indexLanguageText={indexLanguageText}/>
+      <Header locale={locale} navMenuText={navMenuText} page={"videos"} indexLanguageText={indexLanguageText}/>
 
       <div className={"mb-8"}>
         <h2
@@ -54,7 +55,7 @@ const PageComponent = ({
               </div>
               <div className={"flex justify-center items-center"}>
                 <p
-                  className="pointer-events-none mt-2 block text-sm font-medium text-white w-[90%]">{indexLanguageText.prompt}: {file.prompt}</p>
+                  className="pointer-events-none mt-2 block text-sm font-medium w-[90%]">{indexLanguageText.prompt}: {file.prompt}</p>
               </div>
             </div>
           ))}
