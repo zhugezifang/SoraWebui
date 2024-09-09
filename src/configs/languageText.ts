@@ -44,7 +44,7 @@ export const getQuestionLanguageText = async () => {
 
 
 export const getWorksPageLanguageText = async () => {
-  const tWorks = await getTranslations('worksPage');
+  const tWorks = null;
   return {
     title: tWorks('title'),
     description: tWorks('description'),
@@ -54,7 +54,7 @@ export const getWorksPageLanguageText = async () => {
 }
 
 export const getVideosPageLanguageText = async () => {
-  const tVideosPage = await getTranslations('videosPage');
+  const tVideosPage = null;
   return {
     title: tVideosPage('title'),
     description: tVideosPage('description'),
