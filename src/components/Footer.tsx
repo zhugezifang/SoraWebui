@@ -73,7 +73,7 @@ export default function Footer({
                 <div className="text-sm font-semibold leading-6 text-white">Legal</div>
                 <ul role="list" className="mt-6 space-y-4">
                   {navigation.legal.map((item) => {
-                      let hrefTo = `/${locale}${item.href}`;
+                      let hrefTo = `${item.href}`;
                       if (locale == 'en') {
                         hrefTo = `${item.href}`;
                       }

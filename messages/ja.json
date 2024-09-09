@@ -1,23 +1,41 @@
 {
+  "NavMenu": {
+    "name1": "遊び場",
+    "href1": "/playground",
+    "name2": "ブログ",
+    "href2": "/"
+  },
   "IndexPage": {
     "lang": "ja",
     "language": "日本語",
     "languageInChineseSimple": "日语",
-    "title": "",
-    "description": "",
-    "loadingText": "読み込み中...",
-    "generateText": "生成中...",
-    "buttonText": "生成",
-    "placeholderText": "ここにテキストを入力または貼り付け...",
-    "h1Text": "SoraWebui",
-    "pDescription": "SoraWebuiは、テキストを使ってオンラインで動画を生成できるオープンソースプロジェクトで、動画作成をより簡単にします。OpenAIのSoraモデルを使用し、シンプルなワンクリックでウェブサイトを展開できます。",
-    "soraVideoExample": "Soraが作成した動画の例",
-    "prompt": "プロンプト",
-    "soraWorksTitle": "作品",
-    "soraResultTitle": "生成結果",
-    "moreExample": "その他の動画",
-    "fakeSoraTip": "FakeSora は、まだリリースされていない OpenAI Sora API をシミュレートするように設計されています。",
-    "soraTip": "OpenAIはSoraのAPIをまだリリースしていません。"
+    "title": "Kolors Virtual Try On AI: 素晴らしいバーチャルメイクオーバーのための無料ツール",
+    "description": "Kolors Virtual Try On AIを体験しましょう: リアルタイムで様々なメイクアップやヘアスタイルを簡単に試せるので、あなたに最適なスタイルを見つけることができます",
+    "h1Text": "Kolors Virtual Try On AI: 素晴らしいバーチャルメイクオーバーのための無料ツール",
+    "pDescription": "Kolors Virtual Try On AIを体験しましょう: リアルタイムで様々なメイクアップやヘアスタイルを簡単に試せるので、あなたに最適なスタイルを見つけることができます",
+    "soraVideoExample": "Kolors Virtual Try On AIの紹介ビデオ"
+  },
+  "indexQuestion": {
+    "h2_1": "Kolors Virtual Try On AIとは",
+    "h2_1_p1": "Kolors Virtual Try On AIは、ユーザーが物理的に着用することなく服をバーチャルに試着できる革新的なAI技術です。",
+    "h2_1_p2": "個人の写真と望ましい服の画像をアップロードすると、AIはユーザーが選択したアウトフィットを着用しているかのように現実的な可視化を生成します。",
+    "h2_2": "Kolors Virtual Try On AIの主要な機能",
+    "h2_2_p1": "瞬間的なバーチャルフィッティング: AIはユーザーの写真と服のアイテムを分析し、数秒で現実的なバーチャル試着を作成します。",
+    "h2_2_p2": "幅広い服の選択肢: Kolors Virtual Try On AIは、カジュアルウェア、フォーマルウェア、イブニングドレスなど、さまざまな場面に合わせた幅広い服の選択肢を提供します。",
+    "h2_2_p3": "直感的なインターフェイス: アプリのユーザーフレンドリーなインターフェイスは、ユーザーが異なるスタイルを簡単に組み合わせて、服が自分に合うかどうかを瞬時に見ることができるため、ショッピングをより楽しくします。",
+    "h2_2_p4": "ストレスのないショッピング: バーチャル試着は、サイズや色の不一致による返品に関連する問題をユーザーが回避できるため、ストレスのないショッピング体験を提供します。",
+    "h2_3": "Kolors Virtual Try On AIのユーザーと小売業者の利点",
+    "h2_3_p1": "ユーザーにとって、Kolors Virtual Try On AIは、自宅の快適さの中で異なるスタイルを実験できるため、便利です。また、パーソナライズされたファッション体験を提供することで、ショッピング体験の精度と効率を向上させます。",
+    "h2_3_p2": "服の小売業者にとって、Kolors Virtual Try On AIは、ユーザーの試着データに関する深いデータ分析を提供し、市場の動向と消費者の好みを理解することができます。このデータは、小売業者が製品ラインとマーケティング戦略を最適化するのに役立ちます。",
+    "h2_4": "Kolors Virtual Try OnはGitHubでオープンソースになっていますか？",
+    "h2_4_p1": "はい、Kolors Virtual Try-Onは、AI技術を使用してユーザーが服をバーチャルに試着できる新しくリリースされたデモプロジェクトです。",
+    "h2_4_p2": "2024年9月1日にリリースされ、さまざまなAIアプリケーション、特にバーチャル試着機能を含むKwai-Kolors GitHubリポジトリ（https://github.com/Kwai-Kolors/Kolors）の一部です。"
+  },
+  "playgroundPage": {
+    "title": "Playground: Kolors Virtual Try On AI",
+    "description": "Kolors Virtual Try On AIをシンプルに体験しましょう。",
+    "h1Text": "Kolors Virtual Try On AI - 遊び場",
+    "pDescription": "Kolors Virtual Try On AIを体験しましょう: リアルタイムで様々なメイクアップやヘアスタイルを簡単に試せるので、あなたに最適なスタイルを見つけることができます。"
   },
   "privacyPolicy": {
     "title": "プライバシーポリシー｜ ",
@@ -61,36 +79,5 @@
     "h4_7_p": "これらの利用規約を定期的に更新することがあります。重要な変更がある場合は、ユーザーにメールで通知します。",
     "h4_8": "8、連絡先情報：",
     "h4_8_p": "当社のプライバシーポリシーに関するご質問やご不明な点がございましたら、お問い合わせください。"
-  },
-  "indexQuestion": {
-    "h2_1": "Soraとは何ですか",
-    "h2_1_p1": "OpenAIのSoraモデルは、テキストから動画を生成するために設計された高度なAIです。",
-    "h2_1_p2": "テキストの説明に基づいてリアルで想像力豊かなシーンを生成し、複数のキャラクターを作成し、特定の動きやシーンの詳細を正確にシミュレーションします。",
-    "h2_1_p3": "言語理解と動画制作の面で印象的なSoraは、クリエイティブプロフェッショナルに革新のための新しいツールを提供します。",
-    "h2_1_p4": "詳細な情報は、OpenAIの公式ウェブサイトをご覧ください ",
-    "h2_2": "SoraWebuiとは何ですか",
-    "h2_2_p1": "SoraWebuiは、OpenAIのSoraモデルを使用してテキストから動画を生成するためのオープンソースのWebプラットフォームです。",
-    "h2_2_p2": "これは、動画作成プロセスを簡素化し、簡単な展開と使用ができるようにします。",
-    "h2_2_p3": "SoraWebuiを使用すると、誰でもテキストを入力するだけで動画を作成できるため、動画制作とAI技術の両方において専門家や愛好家にとってアクセスしやすいツールになります。",
-    "h2_2_p4a": "詳細については、SoraWebuiのウェブサイトをご覧ください ",
-    "h2_2_p4b": " またはGitHubリポジトリ "
-  },
-  "videosPage": {
-    "title": "動画：Soraによって生成されたサンプル動画、Soraによって生成された最新動画。",
-    "description": "サンプル動画、Soraによって生成された最新動画。 | sorawebui.com"
-  },
-  "worksPage": {
-    "title": "作品: 生成した動画履歴",
-    "description": "生成した動画履歴| sorawebui.com",
-    "h1Text": "SoraWebui - 作品",
-    "pDescription": "SoraWebui は、オープンソースのプロジェクトで、テキストを使用して OpenAI の Sora モデルを使用してオンラインでビデオを生成することを可能にし、簡単なワンクリックのウェブサイトの展開を特色としています。",
-    "generateNew": "新たに生成"
-  },
-  "playgroundPage": {
-    "title": "プレイグラウンド: 簡単に動画を生成",
-    "description": "簡単に動画を生成| sorawebui.com",
-    "h1Text": "SoraWebui - プレイグラウンド",
-    "pDescription": "SoraWebui は、オープンソースのプロジェクトで、テキストを使用して OpenAI の Sora モデルを使用してオンラインでビデオを生成することを可能にし、簡単なワンクリックのウェブサイトの展開を特色としています。",
-    "moreWorks": "その他の作品"
   }
 }

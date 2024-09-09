@@ -13,6 +13,28 @@
     "pDescription": "Experience Kolors Virtual Try On AI: effortlessly try various makeup looks and hairstyles in real-time, ensuring the perfect style for you",
     "soraVideoExample": "Introduce video of Kolors Virtual Try On AI"
   },
+  "indexQuestion": {
+    "h2_1": "What is Kolors Virtual Try On AI",
+    "h2_1_p1": "Kolors Virtual Try On AI is an innovative AI-powered technology that allows users to virtually try on clothes without physically wearing them.",
+    "h2_1_p2": "By uploading a personal photo and an image of desired clothing, the AI generates a realistic visualization of the user wearing the selected outfit.",
+    "h2_2": "Key Features of Kolors Virtual Try On AI",
+    "h2_2_p1": "Instant Virtual Fitting: The AI analyzes the user's photo and the clothing item to create a realistic virtual try-on in seconds.",
+    "h2_2_p2": "Wide Range of Clothing: Kolors Virtual Try On AI offers an extensive library of clothing options for various occasions, including casual wear, formal attire, and evening gowns.",
+    "h2_2_p3": "Intuitive Interface: The app's user-friendly interface makes shopping more enjoyable by allowing users to easily mix and match different styles and instantly see how clothes look on them.",
+    "h2_2_p4": "Hassle-Free Shopping: Virtual try-ons help users avoid issues related to returns due to size or color mismatches, providing a hassle-free shopping experience.",
+    "h2_3": "The Kolors Virtual Try On AI of Benefits for Users and Retailers",
+    "h2_3_p1": "For users, Kolors Virtual Try On AI brings convenience by enabling them to experiment with different styles from the comfort of their homes. It also enhances the accuracy and efficiency of their shopping experience by providing a personalized fashion experience.",
+    "h2_3_p2": "For clothing retailers, Kolors Virtual Try On AI offers in-depth data analysis on user try-on data, allowing them to understand market trends and consumer preferences. This data can help retailers optimize their product lines and marketing strategies.",
+    "h2_4": "Is the Kolors Virtual Try On is open in github?",
+    "h2_4_p1": "Yes,Kolors Virtual Try-On is a newly released demo project that allows users to virtually try on clothing items using AI technology.",
+    "h2_4_p2": "It was launched on September 1, 2024, and is part of the Kwai-Kolors GitHub repository(https://github.com/Kwai-Kolors/Kolors), which focuses on various AI applications, including virtual try-on capabilities."
+  },
+  "playgroundPage": {
+    "title": "Playground: Kolors Virtual Try On AI",
+    "description": "Kolors Virtual Try On AI simply.",
+    "h1Text": "Kolors Virtual Try On AI - playground",
+    "pDescription": "Experience Kolors Virtual Try On AI: effortlessly try various makeup looks and hairstyles in real-time, ensuring the perfect style for you."
+  },
   "privacyPolicy": {
     "title": "Privacy Policy ｜ Kolors Virtual Try On AI",
     "description": "",
@@ -55,27 +77,5 @@
     "h4_7_p": "We may update these Terms from time to time. We will notify users of any material changes via email.",
     "h4_8": "8、Contact Information:",
     "h4_8_p": "If you have any questions or concerns regarding our Privacy Policy, please contact us at "
-  },
-  "indexQuestion": {
-    "h2_1": "What is Kolors Virtual Try On AI",
-    "h2_1_p1": "Kolors Virtual Try On AI is an innovative AI-powered technology that allows users to virtually try on clothes without physically wearing them.",
-    "h2_1_p2": "By uploading a personal photo and an image of desired clothing, the AI generates a realistic visualization of the user wearing the selected outfit.",
-    "h2_2": "Key Features of Kolors Virtual Try On AI",
-    "h2_2_p1": "Instant Virtual Fitting: The AI analyzes the user's photo and the clothing item to create a realistic virtual try-on in seconds.",
-    "h2_2_p2": "Wide Range of Clothing: Kolors Virtual Try On AI offers an extensive library of clothing options for various occasions, including casual wear, formal attire, and evening gowns.",
-    "h2_2_p3": "Intuitive Interface: The app's user-friendly interface makes shopping more enjoyable by allowing users to easily mix and match different styles and instantly see how clothes look on them.",
-    "h2_2_p4": "Hassle-Free Shopping: Virtual try-ons help users avoid issues related to returns due to size or color mismatches, providing a hassle-free shopping experience.",
-    "h2_3": "The Kolors Virtual Try On AI of Benefits for Users and Retailers",
-    "h2_3_p1": "For users, Kolors Virtual Try On AI brings convenience by enabling them to experiment with different styles from the comfort of their homes. It also enhances the accuracy and efficiency of their shopping experience by providing a personalized fashion experience.",
-    "h2_3_p2": "For clothing retailers, Kolors Virtual Try On AI offers in-depth data analysis on user try-on data, allowing them to understand market trends and consumer preferences. This data can help retailers optimize their product lines and marketing strategies.",
-    "h2_4": "Is the Kolors Virtual Try On is open in github?",
-    "h2_4_p1": "Yes,Kolors Virtual Try-On is a newly released demo project that allows users to virtually try on clothing items using AI technology.",
-    "h2_4_p2": "It was launched on September 1, 2024, and is part of the Kwai-Kolors GitHub repository(https://github.com/Kwai-Kolors/Kolors), which focuses on various AI applications, including virtual try-on capabilities."
-  },
-  "playgroundPage": {
-    "title": "Playground: Kolors Virtual Try On AI",
-    "description": "Kolors Virtual Try On AI simply.",
-    "h1Text": "Kolors Virtual Try On AI - playground",
-    "pDescription": "Experience Kolors Virtual Try On AI: effortlessly try various makeup looks and hairstyles in real-time, ensuring the perfect style for you."
   }
 }

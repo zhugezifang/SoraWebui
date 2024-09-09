@@ -7,21 +7,33 @@
     "lang": "en",
     "language": "简体中文",
     "languageInChineseSimple": "简体中文",
-    "title": "",
-    "description": "",
-    "loadingText": "加载中...",
-    "generateText": "生成中...",
-    "buttonText": "生成",
-    "placeholderText": "在此处输入或粘贴文本...",
-    "h1Text": "SoraWebui",
-    "pDescription": "SoraWebui 是一个开源项目，允许用户使用 OpenAI 的 Sora 模型使用文本在线生成视频，从而简化视频创建，并具有轻松的一键网站部署功能。",
-    "soraVideoExample": "Sora 生成的示例视频",
-    "prompt": "提示词",
-    "soraWorksTitle": "作品列表",
-    "soraResultTitle": "结果",
-    "moreExample": "更多示例视频",
-    "fakeSoraTip": "FakeSora 旨在模拟尚未发布的 OpenAI Sora API。",
-    "soraTip": "OpenAI 尚未发布 Sora 的 API。"
+    "title": "Kolors虚拟试妆AI：免费的惊艳虚拟化妆工具",
+    "description": "体验Kolors虚拟试妆AI：轻松实时尝试各种妆容和发型，确保找到最适合你的风格",
+    "h1Text": "Kolors虚拟试妆AI：免费的惊艳虚拟化妆工具",
+    "pDescription": "体验Kolors虚拟试妆AI：轻松实时尝试各种妆容和发型，确保找到最适合你的风格",
+    "soraVideoExample": "介绍Kolors虚拟试妆AI的视频"
+  },
+  "indexQuestion": {
+    "h2_1": "什么是Kolors虚拟试穿AI",
+    "h2_1_p1": "Kolors虚拟试穿AI是一种创新的人工智能技术，它允许用户在不实际穿着的情况下虚拟试穿衣服。",
+    "h2_1_p2": "通过上传个人照片和所需衣物的图像，AI会生成用户穿着所选服装的真实可视化效果。",
+    "h2_2": "Kolors虚拟试穿AI的主要特点",
+    "h2_2_p1": "即时虚拟试穿：AI分析用户的照片和衣物，几秒钟内创建出逼真的虚拟试穿效果。",
+    "h2_2_p2": "广泛的服装选择：Kolors虚拟试穿AI提供各种场合的大量服装选择，包括休闲装、正装和晚礼服。",
+    "h2_2_p3": "直观的界面：该应用程序的用户友好界面使购物更加愉快，用户可以轻松混搭不同风格，并立即看到衣服穿在身上的效果。",
+    "h2_2_p4": "无忧购物：虚拟试穿帮助用户避免因尺码或颜色不匹配而导致的退货问题，提供无忧的购物体验。",
+    "h2_3": "Kolors虚拟试穿AI对用户和零售商的好处",
+    "h2_3_p1": "对于用户来说，Kolors虚拟试穿AI带来了便利，使他们能够从舒适的家中尝试不同的风格。它还通过提供个性化的时尚体验来提高购物体验的准确性和效率。",
+    "h2_3_p2": "对于服装零售商来说，Kolors虚拟试穿AI提供了对用户试穿数据的深入分析，使他们能够了解市场趋势和消费者偏好。这些数据可以帮助零售商优化他们的产品线和营销策略。",
+    "h2_4": "Kolors虚拟试穿是否在GitHub上开源",
+    "h2_4_p1": "是的，Kolors虚拟试穿是一个新发布的演示项目，它使用AI技术让用户虚拟试穿服装。",
+    "h2_4_p2": "它于2024年9月1日发布，是Kwai-Kolors GitHub仓库（https://github.com/Kwai-Kolors/Kolors）的一部分，该仓库专注于各种AI应用，包括虚拟试穿功能。"
+  },
+  "playgroundPage": {
+    "title": "Playground：Kolors虚拟试穿AI",
+    "description": "简单体验Kolors虚拟试穿AI。",
+    "h1Text": "Kolors虚拟试穿AI - Playground",
+    "pDescription": "体验Kolors虚拟试穿AI：轻松实时尝试各种服装，确保找到最适合你的风格。"
   },
   "privacyPolicy": {
     "title": "隐私政策 ｜ ",
@@ -65,36 +77,5 @@
     "h4_7_p": "我们可能会不时更新这些条款。我们将通过电子邮件通知用户任何重大变更。",
     "h4_8": "8、联系信息：",
     "h4_8_p": "如果您对我们的隐私政策有任何疑问或关注，请联系我们："
-  },
-  "indexQuestion": {
-    "h2_1": "什么是Sora",
-    "h2_1_p1": "OpenAI的Sora模型是一种先进的人工智能，旨在将文本转换为视频。",
-    "h2_1_p2": "它根据文本描述生成逼真而富有想象力的场景，创建多个角色，并准确模拟特定动作和场景细节。",
-    "h2_1_p3": "在语言理解和视频制作方面令人印象深刻，Sora为创意专业人士提供了一个创新的新工具。",
-    "h2_1_p4": "有关更详细的信息，请访问OpenAI的官方网站。",
-    "h2_2": "什么是SoraWebui",
-    "h2_2_p1": "SoraWebui是一个开源的网络平台，可以使用OpenAI的Sora模型从文本生成视频。",
-    "h2_2_p2": "它简化了视频创建过程，方便部署和使用。",
-    "h2_2_p3": "借助SoraWebui，任何人都可以通过简单输入文本来创建视频，使其成为专业人士和视频制作爱好者的可访问工具。",
-    "h2_2_p4a": "有关更多信息，请访问SoraWebui网站 ",
-    "h2_2_p4b": " 或其GitHub仓库 "
-  },
-  "videosPage": {
-    "title": "视频：Sora 生成的视频、Sora 生成的最新视频。",
-    "description": "Sora 生成的视频，Sora 生成的最新视频。 | sorawebui.com"
-  },
-  "worksPage": {
-    "title": "作品：生成视频历史。",
-    "description": "生成视频历史。| sorawebui.com",
-    "h1Text": "SoraWebui - 作品",
-    "pDescription": "SoraWebui 是一个开源项目，通过允许用户使用文本在线生成视频，使用 OpenAI 的 Sora 模型简化视频创建，具有简单的一键网站部署功能。",
-    "generateNew": "生成新视频"
-  },
-  "playgroundPage": {
-    "title": "playground：简单生成视频。",
-    "description": "简单生成视频。| sorawebui.com",
-    "h1Text": "SoraWebui - playground",
-    "pDescription": "SoraWebui 是一个开源项目，通过允许用户使用文本在线生成视频，使用 OpenAI 的 Sora 模型简化视频创建，具有简单的一键网站部署功能。",
-    "moreWorks": "更多作品"
   }
 }
