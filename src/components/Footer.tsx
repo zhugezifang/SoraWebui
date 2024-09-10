@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const navigation = {
   product: [
-    {name: 'Virtual Try On', href: 'https://virtual-try-on.online'}
+    {name: 'Tap4 AI Tools Diresctory', href: 'https://tap4.ai/'}
   ],
   legal: [
     {name: 'Privacy Policy', href: '/privacy-policy'},
