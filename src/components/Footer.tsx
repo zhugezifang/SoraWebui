@@ -26,7 +26,7 @@ export default function Footer({
             <a href={`/${locale}`}>
               <Image
                 className="h-10"
-                src="/appicon.svg"
+                src="/favicon.svg"
                 width={32}
                 height={32}
                 alt="Virtual Try On"
