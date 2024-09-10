@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const navigation = {
   product: [
-    {name: 'Virtual Try On', href: 'https://sorawebui.com'}
+    {name: 'Virtual Try On', href: 'https://virtual-try-on.online'}
   ],
   legal: [
     {name: 'Privacy Policy', href: '/privacy-policy'},
