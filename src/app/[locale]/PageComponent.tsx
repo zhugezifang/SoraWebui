@@ -130,7 +130,7 @@ const PageComponent = ({
             </div>
 
             <div className={"object-fill w-[90%] mx-auto mt-8"}>
-              <div className={"mx-auto bg-white"}>
+              <div className={"mx-auto"} style={{ backgroundColor: 'rgb(245 241 241)' }}>
                 <div className={"pb-2 border-b-2"}>
                   <h2
                     className={"text-blue-500 pt-4 text-4xl flex justify-center items-center"}>{indexLanguageText.soraVideoExample}</h2>
@@ -148,7 +148,7 @@ const PageComponent = ({
             </div>
 
             <div className={"object-fill w-[90%] mx-auto mt-8"}>
-              <div className={"mx-auto bg-white py-8"}>
+              <div className={"mx-auto py-8"} style={{ backgroundColor: 'rgb(245 241 241)' }}>
                 <div className={"pb-2 border-b-2"}>
                   <h2
                     className={"text-blue-500 pt-4 text-4xl flex justify-center items-center"}>{questionText.h2_1}</h2>
@@ -165,7 +165,7 @@ const PageComponent = ({
             </div>
 
             <div className={"object-fill w-[90%] mx-auto mt-8"}>
-              <div className={"mx-auto bg-white py-8"}>
+              <div className={"mx-auto py-8"} style={{ backgroundColor: 'rgb(245 241 241)' }}>
                 <div className={"pb-2 border-b-2"}>
                   <h2
                     className={"text-blue-500 pt-4 text-4xl flex justify-center items-center"}>{questionText.h2_2}</h2>
@@ -188,7 +188,7 @@ const PageComponent = ({
             </div>
 
             <div className={"object-fill w-[90%] mx-auto mt-8"}>
-              <div className={"mx-auto bg-white py-8"}>
+              <div className={"mx-auto py-8"} style={{ backgroundColor: 'rgb(245 241 241)' }}>
                 <div className={"pb-2 border-b-2"}>
                   <h2
                     className={"text-blue-500 pt-4 text-4xl flex justify-center items-center"}>{questionText.h2_3}</h2>
@@ -205,7 +205,7 @@ const PageComponent = ({
             </div>
 
             <div className={"object-fill w-[90%] mx-auto mt-8"}>
-              <div className={"mx-auto bg-white py-8"}>
+              <div className={"mx-auto py-8"} style={{ backgroundColor: 'rgb(245 241 241)' }}>
                 <div className={"pb-2 border-b-2"}>
                   <h2
                     className={"text-blue-500 pt-4 text-4xl flex justify-center items-center"}>{questionText.h2_4}</h2>
