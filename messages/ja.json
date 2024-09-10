@@ -13,7 +13,8 @@
     "description": "Kolors Virtual Try On AIを体験しましょう: リアルタイムで様々なメイクアップやヘアスタイルを簡単に試せるので、あなたに最適なスタイルを見つけることができます",
     "h1Text": "Kolors Virtual Try On AI: 素晴らしいバーチャルメイクオーバーのための無料ツール",
     "pDescription": "Kolors Virtual Try On AIを体験しましょう: リアルタイムで様々なメイクアップやヘアスタイルを簡単に試せるので、あなたに最適なスタイルを見つけることができます",
-    "soraVideoExample": "Kolors Virtual Try On AIの紹介ビデオ"
+    "soraVideoExample": "Kolors Virtual Try On AIの紹介ビデオ",
+    "btn":"今すぐ無料でお試し！" 
   },
   "indexQuestion": {
     "h2_1": "Kolors Virtual Try On AIとは",

@@ -18,6 +18,7 @@ export const getIndexLanguageText = async () => {
     h1Text: tIndex('h1Text'),
     pDescription: tIndex('pDescription'),
     soraVideoExample: tIndex('soraVideoExample'),
+    btn: tIndex('btn'),
   };
 }
 

@@ -7,11 +7,12 @@
     "lang": "en",
     "language": "简体中文",
     "languageInChineseSimple": "简体中文",
-    "title": "Kolors虚拟试妆AI：免费的惊艳虚拟化妆工具",
+    "title": "Kolors虚拟试妆AI：免费的惊艳虚拟换装工具",
     "description": "体验Kolors虚拟试妆AI：轻松实时尝试各种妆容和发型，确保找到最适合你的风格",
-    "h1Text": "Kolors虚拟试妆AI：免费的惊艳虚拟化妆工具",
+    "h1Text": "Kolors虚拟试妆AI：免费的惊艳虚拟换装工具",
     "pDescription": "体验Kolors虚拟试妆AI：轻松实时尝试各种妆容和发型，确保找到最适合你的风格",
-    "soraVideoExample": "介绍Kolors虚拟试妆AI的视频"
+    "soraVideoExample": "介绍Kolors虚拟试妆AI的视频",
+    "btn":"免费尝试!"
   },
   "indexQuestion": {
     "h2_1": "什么是Kolors虚拟试穿AI",
