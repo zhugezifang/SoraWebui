@@ -3,7 +3,9 @@ import Link from "next/link";
 
 const navigation = {
   product: [
-    {name: 'Tap4 AI Tools Diresctory', href: 'https://tap4.ai/'}
+    {name: 'Tap4 AI Tools Diresctory', href: 'https://tap4.ai/'},
+    {name: 'iuu AI', href: 'https://iuu.ai'},
+    {name: 'MagicBox.Tools - AI Tools Directory', href: 'https://magicbox.tools/'}
   ],
   legal: [
     {name: 'Privacy Policy', href: '/privacy-policy'},
