@@ -43,8 +43,8 @@ const PageComponent = ({
           <h4 className={"font-bold"}>{termsOfServiceLanguageText.h4_5}</h4>
           <p>
             {termsOfServiceLanguageText.h4_5_p}<a
-            href={`https://sorawebui.com/${locale}/privacy-policy`}
-            className={"text-white"}>https://sorawebui.com/privacy-policy</a>
+            href={`https://virtual-try-on.online/privacy-policy`}
+            className={"text-white"}>https://virtual-try-on.online/privacy-policy</a>
           </p>
           <h4 className={"font-bold"}>{termsOfServiceLanguageText.h4_6}</h4>
           <p>{termsOfServiceLanguageText.h4_6_p}</p>

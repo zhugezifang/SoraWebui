@@ -44,7 +44,7 @@ const PageComponent = ({
           <p>{privacyPolicyLanguageText.h4_5_p}</p>
           <h4 className={"font-bold"}>{privacyPolicyLanguageText.h4_6}</h4>
           <p>
-            {privacyPolicyLanguageText.h4_6_p}{" "}<a href="mailto:hi@sorawebui.com">hi@sorawebui.com</a>.
+            {privacyPolicyLanguageText.h4_6_p}{" "}<a href="mailto:hi@sorawebui.com">xiaoqiu2017wy@gmail.com</a>.
           </p>
         </div>
       </main>
