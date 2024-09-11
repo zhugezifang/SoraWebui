@@ -136,7 +136,7 @@ const PageComponent = ({
             <div>
               <div
                 className={"w-[90%] mx-auto rounded-tl-[30px] rounded-tr-[30px] border-[12px] border-gray-200 object-fill"}>
-                    <iframe src="https://kwai-kolors-kolors-virtual-try-on.hf.space" style={{width: '100%',height:'1800px'}}></iframe>
+                    <iframe src="https://ahmedalmaghz-kolors-virtual-try-on.hf.space" style={{width: '100%',height:'1800px'}}></iframe>
               </div>
             </div>
 
