@@ -28,7 +28,9 @@
     "h2_3_p2": "For clothing retailers, Kolors Virtual Try On AI offers in-depth data analysis on user try-on data, allowing them to understand market trends and consumer preferences. This data can help retailers optimize their product lines and marketing strategies.",
     "h2_4": "Is the Kolors Virtual Try On is open in github?",
     "h2_4_p1": "Yes,Kolors Virtual Try-On is a newly released demo project that allows users to virtually try on clothing items using AI technology.",
-    "h2_4_p2": "It was launched on September 1, 2024, and is part of the Kwai-Kolors GitHub repository(https://github.com/Kwai-Kolors/Kolors), which focuses on various AI applications, including virtual try-on capabilities."
+    "h2_4_p2": "It was launched on September 1, 2024, and is part of the Kwai-Kolors GitHub repository(https://github.com/Kwai-Kolors/Kolors), which focuses on various AI applications, including virtual try-on capabilities.",
+    "h2_5": " What is a Kolors virtual try-on for clothes??",
+    "h2_5_p1": "A color virtual try-on is a feature that allows users to digitally experiment with different colors on clothing items without physically trying them on. This technology uses augmented reality (AR) or other visualization tools to show how different colors would look on a specific item."
   },
   "playgroundPage": {
     "title": "Playground: Kolors Virtual Try On AI",

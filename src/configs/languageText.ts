@@ -40,6 +40,8 @@ export const getQuestionLanguageText = async () => {
     h2_4: tIndexQuestion('h2_4'),
     h2_4_p1: tIndexQuestion('h2_4_p1'),
     h2_4_p2: tIndexQuestion('h2_4_p2'),
+    h2_5: tIndexQuestion('h2_5'),
+    h2_5_p1: tIndexQuestion('h2_5_p1'),
   }
 }
 

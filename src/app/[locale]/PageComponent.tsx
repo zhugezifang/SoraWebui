@@ -232,6 +232,20 @@ const PageComponent = ({
               </div>
             </div>
 
+            <div className={"object-fill w-[90%] mx-auto mt-8"}>
+              <div className={"mx-auto py-8"} style={{ backgroundColor: 'rgb(245 241 241)' }}>
+                <div className={"pb-2 border-b-2"}>
+                  <h2
+                    className={"text-blue-500 pt-4 text-4xl flex justify-center items-center"}>{questionText.h2_5}</h2>
+                </div>
+                <div className={"w-[96%] text-gray-700 prose mx-auto mt-4"}>
+                  <p>
+                    {questionText.h2_5_p1}
+                  </p>
+                </div>
+              </div>
+            </div>
+
             <div className="flex items-center justify-center space-x-7 py-10">
                 <a href={`/${locale}/playground`} className="cursor-pointer flex flex-row items-center bg-[#276ef1] px-10 py-6 font-bold text-white transition [box-shadow:rgb(171,_196,_245)-12px_12px] hover:[box-shadow:rgb(171,_196,_245)_0px_0px]">
                   <p className="mr-8 font-bold text-2xl tracking-wider">{indexLanguageText.btn}</p>

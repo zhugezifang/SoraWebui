@@ -28,7 +28,9 @@
     "h2_3_p2": "对于服装零售商来说，Kolors虚拟试穿AI提供了对用户试穿数据的深入分析，使他们能够了解市场趋势和消费者偏好。这些数据可以帮助零售商优化他们的产品线和营销策略。",
     "h2_4": "Kolors虚拟试穿是否在GitHub上开源",
     "h2_4_p1": "是的，Kolors虚拟试穿是一个新发布的演示项目，它使用AI技术让用户虚拟试穿服装。",
-    "h2_4_p2": "它于2024年9月1日发布，是Kwai-Kolors GitHub仓库（https://github.com/Kwai-Kolors/Kolors）的一部分，该仓库专注于各种AI应用，包括虚拟试穿功能。"
+    "h2_4_p2": "它于2024年9月1日发布，是Kwai-Kolors GitHub仓库（https://github.com/Kwai-Kolors/Kolors）的一部分，该仓库专注于各种AI应用，包括虚拟试穿功能。",
+    "h2_5": "什么是Kolors虚拟换装衣服？",
+    "h2_5_p1": "Kolors虚拟换装衣服是一种功能，它允许用户在不实际试穿的情况下，通过数字方式在衣物上尝试不同的颜色。该技术使用增强现实（AR）或其他可视化工具来展示不同颜色在特定物品上的外观。"
   },
   "playgroundPage": {
     "title": "Playground：Kolors虚拟试穿AI",
