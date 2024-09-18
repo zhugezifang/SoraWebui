@@ -38,6 +38,25 @@
     "h1Text": "Kolors Virtual Try On AI - playground",
     "pDescription": "Experience Kolors Virtual Try On AI: effortlessly try various makeup looks and hairstyles in real-time, ensuring the perfect style for you."
   },
+  "colourPage": {
+    "title": "Colour Virtual Try On: Use AI  color your clothes",
+    "description": "Colour Virtual Try On uses AI to instantly change the color of your clothes, helping you find the perfect shade without trying them on in person.",
+    "h1Text": "Colour Virtual Try On: Use AI  color your clothes",
+    "pDescription": "Colour Virtual Try On uses AI to instantly change the color of your clothes, helping you find the perfect shade without trying them on in person.",
+    
+    "h2_1": "What is Colour Virtual Try On?",
+    "h2_1_p1": "Colour Virtual Try On is an AI-powered tool that allows users to see how different colors would look on their clothes virtually, without physically trying them on.",
+    "h2_2": "How does Colour Virtual Try On work?",
+    "h2_2_p1": "The tool uses AI technology to detect clothing items in your photo and digitally change their color to your desired shade.",
+    "h2_3": "How accurate is the body measurement analysis in Colour Virtual Try On?",
+    "h2_3_p1": "The accuracy of body measurement analysis in Colour Virtual Try On is significantly enhanced by its use of advanced AI and machine learning technologies. The system analyzes users' body measurements from uploaded photos, taking into account various factors such as body shape, size, and fabric properties to generate realistic visualizations of clothing items.",
+    "h2_4": "How does Colour Virtual Try On adapt clothes to different backgrounds?",
+    "h2_4_p1": "Colour Virtual Try On utilizes advanced AI technology to adapt the appearance of clothing to various real-world settings, considering factors such as lighting, background, and perspective. This environmental adaptability is a key feature that sets Colour Virtual Try On apart in the realm of virtual fashion.",
+    "h2_5": " Can I upload my own photos of clothes to Colour Virtual Try On?",
+    "h2_5_p1": "Yes, you can upload your own photos of clothes to Colour Virtual Try On. The platform allows users to upload images of both themselves and the garments they wish to try on.<br/>Upload Your Image: Start by uploading a clear photo of yourself.<br/>Upload Garment Image: Next, upload an image of the clothing item you want to try on. Ensure that the garment is well-lit and clearly visible for optimal results.<br/>Generate Try-On Result: After uploading both images, you can run the virtual try-on process, which will show you how the garment looks on you in a realistic manner",
+    "h2_6":"How does Colour Virtual Try On help me choose the right color for my dress?",
+    "h2_6_p1":"Colour Virtual Try On allows you to experiment with different shades for your dress before making a purchase or style decision. By uploading a photo of yourself or selecting a dress from an online catalog, the AI changes the color in real-time, giving you a realistic preview. This feature helps you see how different colors complement your skin tone, style, or occasion without physically trying on multiple dresses."
+  },
   "privacyPolicy": {
     "title": "Privacy Policy ｜ Kolors Virtual Try On AI",
     "description": "",

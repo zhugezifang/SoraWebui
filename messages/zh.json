@@ -14,6 +14,25 @@
     "soraVideoExample": "介绍Kolors虚拟试妆AI的视频",
     "btn":"免费尝试!"
   },
+  "colourPage": {
+        "title": "Colour Virtual Try On: 使用AI为你的衣服上色",
+        "description": "Colour Virtual Try On使用AI技术，可以瞬间改变你的衣服颜色，帮助你找到完美色调，而无需亲自试穿。",
+        "h1Text": "Colour Virtual Try On: 使用AI为你的衣服上色",
+        "pDescription": "Colour Virtual Try On使用AI技术，可以瞬间改变你的衣服颜色，帮助你找到完美色调，而无需亲自试穿。",
+        
+        "h2_1": "什么是Colour Virtual Try On?",
+        "h2_1_p1": "Colour Virtual Try On是一个由AI驱动的工具，它允许用户在虚拟环境中看到不同颜色在他们的衣服上的效果，而无需实际试穿。",
+        "h2_2": "Colour Virtual Try On如何工作?",
+        "h2_2_p1": "该工具使用AI技术检测你照片中的衣物，并数字方式改变它们的颜色，以达到你想要的色调。",
+        "h2_3": "Colour Virtual Try On中的身体测量分析有多准确?",
+        "h2_3_p1": "Colour Virtual Try On中的身体测量分析准确性通过其使用先进的AI和机器学习技术得到了显著提高。系统通过分析用户上传的照片中的身体测量数据，考虑了各种因素，如体型、尺寸和面料属性，以生成逼真的衣物可视化效果。",
+        "h2_4": "Colour Virtual Try On如何使衣物适应不同的背景?",
+        "h2_4_p1": "Colour Virtual Try On利用先进的AI技术使衣物的外观适应各种现实世界的环境，考虑了诸如光照、背景和视角等因素。这种环境适应性是Colour Virtual Try On在虚拟时尚领域脱颖而出的关键特征。",
+        "h2_5": "我可以上传自己的衣服照片到Colour Virtual Try On吗?",
+        "h2_5_p1": "是的，你可以上传自己的衣服照片到Colour Virtual Try On。该平台允许用户上传他们自己和他们想要试穿的衣物的照片。<br/>上传你的图像：首先上传一张你自己的清晰照片。<br/>上传衣物图像：接下来，上传你想要试穿的衣物的照片。确保衣物光线充足，清晰可见，以获得最佳效果。<br/>生成试穿结果：上传两张图像后，你可以运行虚拟试穿过程，它将以逼真的方式向你展示衣物在你身上的效果。",
+        "h2_6":"Colour Virtual Try On如何帮助我为我的连衣裙选择合适的颜色?",
+        "h2_6_p1":"Colour Virtual Try On允许你在购买或做出风格决定之前，尝试不同的连衣裙颜色。通过上传你自己的照片或从在线目录中选择一件连衣裙，AI会实时改变颜色，给你一个逼真的预览。这个功能可以帮助你看到不同颜色如何与你的肤色、风格或场合相配，而无需实际试穿多件连衣裙。"
+  },
   "indexQuestion": {
     "h2_1": "什么是Kolors虚拟试穿AI",
     "h2_1_p1": "Kolors虚拟试穿AI是一种创新的人工智能技术，它允许用户在不实际穿着的情况下虚拟试穿衣服。",

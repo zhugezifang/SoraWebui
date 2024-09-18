@@ -48,9 +48,15 @@ export default function Footer({
                 </ul>
               </div>
               <div className="mt-10 md:mt-0">
-                <div className="text-sm font-semibold leading-6 text-white"></div>
+                <div className="text-sm font-semibold leading-6 text-white">Friends</div>
                 <ul role="list" className="mt-6 space-y-4">
-
+                        <li>
+                          <Link href={`/${locale}/colour-virtual-try-on`}
+                                target={"_blank"}
+                                className="text-sm leading-6 text-gray-300 hover:text-[#2d6ae0]">
+                            Colour Virtual Try On
+                          </Link>
+                        </li>
                 </ul>
               </div>
             </div>

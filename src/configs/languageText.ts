@@ -124,3 +124,25 @@ export const getPlaygroundPageLanguageText = async () => {
     pDescription: tPlaygroundPage('pDescription'),
   }
 }
+
+export const getColourPageLanguageText = async () => {
+  const tPlaygroundPage = await getTranslations('colourPage');
+  return {
+    title: tPlaygroundPage('title'),
+    description: tPlaygroundPage('description'),
+    h1Text: tPlaygroundPage('h1Text'),
+    pDescription: tPlaygroundPage('pDescription'),
+    h2_1: tPlaygroundPage('h2_1'),
+    h2_1_p1: tPlaygroundPage('h2_1_p1'),
+    h2_2: tPlaygroundPage('h2_2'),
+    h2_2_p1: tPlaygroundPage('h2_2_p1'),
+    h2_3: tPlaygroundPage('h2_3'),
+    h2_3_p1: tPlaygroundPage('h2_3_p1'),
+    h2_4: tPlaygroundPage('h2_4'),
+    h2_4_p1: tPlaygroundPage('h2_4_p1'),
+    h2_5: tPlaygroundPage('h2_5'),
+    h2_5_p1: tPlaygroundPage('h2_5_p1'),
+    h2_6: tPlaygroundPage('h2_6'),
+    h2_6_p1: tPlaygroundPage('h2_6_p1'),
+  }
+}
