@@ -6,7 +6,9 @@ const navigation = {
     {name: 'Tap4 AI Tools Diresctory', href: 'https://tap4.ai/'},
     {name: 'iuu AI', href: 'https://iuu.ai'},
     {name: 'MagicBox.Tools - AI Tools Directory', href: 'https://magicbox.tools/'},
-    {name: 'Woy AI Tools', href: 'https://woy.ai/'}
+    {name: 'Woy AI Tools', href: 'https://woy.ai/'},
+    {name: 'AI With Me', href: 'https://aiwith.me'},
+    {name: 'Flux AI Pro', href: 'https://fluxai.pro/'}
   ],
   legal: [
     {name: 'Privacy Policy', href: '/privacy-policy'},
