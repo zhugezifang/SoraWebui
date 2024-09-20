@@ -8,7 +8,8 @@ const navigation = {
     {name: 'MagicBox.Tools - AI Tools Directory', href: 'https://magicbox.tools/'},
     {name: 'Woy AI Tools', href: 'https://woy.ai/'},
     {name: 'AI With Me', href: 'https://aiwith.me'},
-    {name: 'Flux AI Pro', href: 'https://fluxai.pro/'}
+    {name: 'Flux AI Pro', href: 'https://fluxai.pro/'},
+    {name: 'AIEasy.life AI Tools', href: 'https://aieasy.life/'}
   ],
   legal: [
     {name: 'Privacy Policy', href: '/privacy-policy'},
