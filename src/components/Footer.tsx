@@ -9,7 +9,7 @@ const navigation = {
     {name: 'Woy AI Tools', href: 'https://woy.ai/'},
     {name: 'AI With Me', href: 'https://aiwith.me'},
     {name: 'AIEasy.life AI Tools', href: 'https://aieasy.life/'},
-    {name: 'AI Tool Center', href: 'https://aitoolcenter.com/'}
+    {name: 'AIPURE AI', href: 'https://aipure.ai/'}
   ],
   legal: [
     {name: 'Privacy Policy', href: '/privacy-policy'},
