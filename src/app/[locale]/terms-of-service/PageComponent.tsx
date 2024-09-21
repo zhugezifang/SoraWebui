@@ -52,7 +52,7 @@ const PageComponent = ({
           <p>{termsOfServiceLanguageText.h4_7_p}</p>
           <h4 className={"font-bold"}>{termsOfServiceLanguageText.h4_8}</h4>
           <p>
-            {termsOfServiceLanguageText.h4_8_p}<a href="mailto:hi@sorawebui.com">hi@sorawebui.com</a>.
+            {termsOfServiceLanguageText.h4_8_p}<a href="mailto:xiaoqiu2017wy@gmail.com">xiaoqiu2017wy@gmail.com</a>.
           </p>
         </div>
       </main>
