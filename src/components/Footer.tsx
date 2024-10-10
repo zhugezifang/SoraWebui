@@ -12,7 +12,8 @@ const navigation = {
     {name: 'Bai.tools', href: 'https://bai.tools/'},
     {name: 'AIPURE AI', href: 'https://aipure.ai/'},
     {name: 'All in AI Tools', href: 'https://allinai.tools'},
-    {name: 'RightAI Tools Diresctory', href: 'https://right-ai.com/'}
+    {name: 'RightAI Tools Diresctory', href: 'https://right-ai.com/'},
+    {name: 'Flux AI Pro', href: 'https://fluxai.pro/'}
   ],
   legal: [
     {name: 'Privacy Policy', href: '/privacy-policy'},
