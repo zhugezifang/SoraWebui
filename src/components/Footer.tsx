@@ -104,6 +104,15 @@ export default function Footer({
                           </Link>
                         </li>
 
+                        <li>
+                          <Link href="https://AIToolly.com/"
+                                target={"_blank"}
+                                className="text-sm leading-6 text-gray-300 hover:text-[#2d6ae0]">
+                            AIToolly
+                          </Link>
+                        </li>
+
+
                 </ul>
               </div>
             </div>
