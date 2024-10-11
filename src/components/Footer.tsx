@@ -64,6 +64,46 @@ export default function Footer({
                             Colour Virtual Try On
                           </Link>
                         </li>
+                        <li>
+                          <Link href="https://www.aitoolnet.com/"
+                                target={"_blank"}
+                                className="text-sm leading-6 text-gray-300 hover:text-[#2d6ae0]">
+                            aitoolnet.com
+                          </Link>
+                        </li>
+                        
+                        <li>
+                          <Link href="https://www.dir2ai.com"
+                                target={"_blank"}
+                                className="text-sm leading-6 text-gray-300 hover:text-[#2d6ae0]">
+                            Dir2AI
+                          </Link>
+                        </li>
+
+                        <li>
+                          <Link href="https://aijustworks.com"
+                                target={"_blank"}
+                                className="text-sm leading-6 text-gray-300 hover:text-[#2d6ae0]">
+                            AI Just Works
+                          </Link>
+                        </li>
+
+                        <li>
+                          <Link href="https://freeaitool.ai/"
+                                target={"_blank"}
+                                className="text-sm leading-6 text-gray-300 hover:text-[#2d6ae0]">
+                            Free AI Tool
+                          </Link>
+                        </li>
+
+                        <li>
+                          <Link href="https://SeekAIs.com/"
+                                target={"_blank"}
+                                className="text-sm leading-6 text-gray-300 hover:text-[#2d6ae0]">
+                            SeekAIs - AI Tools Directory
+                          </Link>
+                        </li>
+
                 </ul>
               </div>
             </div>
