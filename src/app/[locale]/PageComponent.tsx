@@ -150,7 +150,7 @@ const PageComponent = ({
                   <div>
                       <div
                         className="rounded-xl flex justify-center items-start">
-                        <iframe width="1228" height="691" src="https://www.youtube.com/embed/9uS9Vfk8-N8" title="Try On Clothes Virtually with AI using Kolors Virtual Try-On in the Wild" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
+                        <iframe width="100%" height="691" src="https://www.youtube.com/embed/9uS9Vfk8-N8" title="Try On Clothes Virtually with AI using Kolors Virtual Try-On in the Wild" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
                       </div>
                     </div>
                 </div>
