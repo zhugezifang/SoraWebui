@@ -105,6 +105,22 @@ export default function Footer({
                         </li>
 
                         <li>
+                          <Link href="https://templatejp.online/"
+                                target={"_blank"}
+                                className="text-sm leading-6 text-gray-300 hover:text-[#2d6ae0]">
+                            無料のテンプレート
+                          </Link>
+                        </li>
+
+                        <li>
+                          <Link href="https://cv-template.online/"
+                                target={"_blank"}
+                                className="text-sm leading-6 text-gray-300 hover:text-[#2d6ae0]">
+                            免费简历模板
+                          </Link>
+                        </li>
+
+                        <li>
                           <Link href="https://AIToolly.com/"
                                 target={"_blank"}
                                 className="text-sm leading-6 text-gray-300 hover:text-[#2d6ae0]">
